@@ -1,0 +1,139 @@
+@media( min-width:768px){
+    .bakery h1{
+    font-size: 52px;
+    }
+    .category-box{
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .box1{
+        width: 50%;
+
+    }
+
+    #third-section .main h1{
+        font-size: 38px;
+    }
+    .content-text{
+        width: 100%;
+        display: flex;
+       flex-wrap: wrap;
+       padding: 50px;
+}
+
+.image-main{
+    
+    margin: 0;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    padding: 50px;
+    width: 100%;
+    padding-top: 0;
+}
+.image-main img{
+    width: 100%;
+}
+}
+
+@media (min-width:992px){
+    .stick-menu nav{
+        position: fixed;
+        z-index: 9999;
+        top: 0;
+        width: 1100px;
+        margin-top: 0px;
+    }
+    .stick-menu .menu-bglayer{
+        opacity: 1;
+        visibility: visible;
+    }
+    .top-contacts{
+        display: flex;
+        
+    }
+    .links{
+        display: flex;
+        gap: 10px;
+       
+    }
+    #menu{
+        display: none;
+    }
+    .bakery h1{
+        font-size: 72px;
+        text-align: center;
+    }
+    #banner{
+        
+        height: 700px;
+    }
+    #second-section .main{
+        display: flex;
+    }
+    #second-section .main .content{
+        width: 60%;
+        align-items: start;
+    }
+    #second-section .main .image{
+        width: 40%;
+    }
+    .image{
+        margin-top: 100px;
+    }
+    .box1{
+        width: 25%;
+
+    }
+    #third-section .main h1{
+        font-size: 44px;
+    }
+    #fourth-section .main{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: nowrap;
+     }
+     .content-text{
+        width: 50%;
+     }
+     .image-main{
+        width: 50%;
+     }
+
+}
+
+
+@media (min-width:0px) and (max-width:992px){
+    nav{
+        position: fixed;
+        top: 0;
+        width: 100%;
+    }
+    #banner .overlay{
+        padding-top: 100px;
+    }
+ nav ul{
+    flex-direction: column;
+    width: 60%;
+    height: 700px;
+    position: fixed;
+    font-weight: bold;
+    top: 0;
+    transition: 500ms;
+    left: -100%;
+    background-color: black;
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+    gap: 0;
+
+ }   
+ nav ul li{
+    padding: 10px;
+ }
+
+ 
+}
